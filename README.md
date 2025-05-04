@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/977500314.svg)](https://doi.org/10.5281/zenodo.15337322)
 # UTScan: Urban Travel Intensity Estimation from Seismic Noise
 
 UTScan is a hybrid machine learning framework that leverages continuous seismic noise recordings to quantify daily urban travel intensity. By combining CatBoost regression with an LSTM sequence model, it captures both nonlinear relationships and temporal dynamics for accurate, generalizable predictions across multiple cities and time periods.
