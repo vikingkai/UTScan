@@ -75,11 +75,12 @@ import os
 
 # Data file path configuration
 DATA_DIR = "./data/psd/"              # PSD feature text file directory (including BHZ channel data)
-TRAVEL_DATA_PATH = "./data/城内出行强度.xlsx"   # Excel file path for urban travel intensity data
-MAPPING_PATH = "./data/城市-台站对应表.xlsx"    # Excel file path for city–station mapping table
-LOW_VALUES_PATH = "./data/273个城市低值.txt"   # File path for baseline low noise levels (leave empty if not available)
+TRAVEL_DATA_PATH = "./data/x.xlsx"   # Excel file path for urban travel intensity data
+MAPPING_PATH = "./data/x.xlsx"    # Excel file path for city–station mapping table
+LOW_VALUES_PATH = "./data/x.txt"   # File path for baseline low noise levels (leave empty if not available)
 
 # Data analysis start and end date (inclusive), format YYYY-MM-DD
+
 START_DATE = "2020-01-01"
 END_DATE   = "2020-04-30"
 
@@ -314,20 +315,20 @@ All evaluation functions are in `evaluator.py`, computing RMSE, MAE, MAPE, R², 
 ## GitHub & DOI Setup
 
 1. **Create a Public repository** on GitHub and push this project (see instructions in `docs/GITHUB.md`).
-2. **Enable GitHub–Zenodo integration**, create a Release tags (e.g., `v1.0.0`), then obtain a DOI automatically on Zenodo.
+2. **Enable GitHub–Zenodo integration**, create a Release tags (e.g., `v1.0.2`), then obtain a DOI automatically on Zenodo.
 
 ---
 
 ## Citation
 
 ```bibtex
-@software{UTScan2025,
-  author       = {Your Name},
+@software{UTScan2025, 
+  author       = {kai Guo},
   title        = {UTScan: Urban Travel Intensity from Seismic Noise},
-  version      = {v1.0.0},
+  version      = {v1.0.2},
   year         = {2025},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://github.com/<username>/UTScan}
+  doi          = {10.5281/zenodo.15337456},
+  url          = {https://github.com/Vikingkai/UTScan}
 }
 ```
 
